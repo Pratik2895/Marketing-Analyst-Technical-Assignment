@@ -95,6 +95,21 @@ streamlit run app.py
 
 4. Open your browser and navigate to `http://localhost:8501`
 
+## Quality Control
+
+A QC utility has been added to validate the data used by the dashboard without changing the dashboard itself.
+
+Run the QC script:
+```bash
+python qc.py
+```
+
+This checks:
+- source CSV schema and required columns
+- non-negative values for key metrics
+- platform-specific metric formulas (CTR, CPM, CPC, CPA, ROAS)
+- aggregated totals between source files and the unified dataset
+
 ## Deployment on Streamlit Cloud
 
 This application is ready for deployment on Streamlit Cloud:
@@ -114,8 +129,7 @@ This application is ready for deployment on Streamlit Cloud:
 
 ```
 Marketing-Analyst-Technical-Assignment/
-├── app.py                    # Streamlit dashboard application
-├── requirements.txt          # Python dependencies
+├── app.py                    # Streamlit dashboard application├── qc.py                     # Quality control validation utility├── requirements.txt          # Python dependencies
 ├── README.md                 # Project documentation
 ├── 01_facebook_ads.csv       # Facebook Ads data
 ├── 02_google_ads.csv         # Google Ads data
