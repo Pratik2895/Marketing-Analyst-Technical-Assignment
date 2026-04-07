@@ -188,7 +188,7 @@ The dashboard allows exporting:
 
 ## Live Demo
 
-[View the live dashboard on Streamlit Cloud](https://marketing-analyst-technical-assignment.streamlit.app)
+[View the live dashboard on Streamlit Cloud]([https://marketing-analyst-technical-assignment.streamlit.app](https://marketing-analyst-technical-assignment-2026-04.streamlit.app/))
 
 *Note: Link will be active after deployment*
 
