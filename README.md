@@ -97,7 +97,7 @@ streamlit run app.py
 
 ## Quality Control
 
-A QC utility has been added to validate the data used by the dashboard without changing the dashboard itself.
+A QC utility has been added to validate the data used by the dashboard without changing the dashboard itself. It confirms the dashboard metrics are built from the raw CSV source data and that the calculated KPI formulas are consistent.
 
 Run the QC script:
 ```bash
@@ -129,7 +129,9 @@ This application is ready for deployment on Streamlit Cloud:
 
 ```
 Marketing-Analyst-Technical-Assignment/
-├── app.py                    # Streamlit dashboard application├── qc.py                     # Quality control validation utility├── requirements.txt          # Python dependencies
+├── app.py                    # Streamlit dashboard application
+├── qc.py                     # Quality control validation utility
+├── requirements.txt          # Python dependencies
 ├── README.md                 # Project documentation
 ├── 01_facebook_ads.csv       # Facebook Ads data
 ├── 02_google_ads.csv         # Google Ads data
@@ -206,7 +208,7 @@ The dashboard allows exporting:
 
 ## Live Demo
 
-[View the live dashboard on Streamlit Cloud]([https://marketing-analyst-technical-assignment.streamlit.app](https://marketing-analyst-technical-assignment-2026-04.streamlit.app/))
+[View the live dashboard on Streamlit Cloud](https://marketing-analyst-technical-assignment-2026-04.streamlit.app/)
 
 *Note: Link will be active after deployment*
 
@@ -217,16 +219,6 @@ The dashboard allows exporting:
 - **Pandas** - Data manipulation
 - **Plotly** - Interactive visualizations
 - **SQLite** - Data storage
-
-## Deployment on Streamlit Cloud
-
-1. Push this repository to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Sign in with your GitHub account
-4. Click "New app"
-5. Select this repository
-6. Set the main file path to `app.py`
-7. Click "Deploy"
 
 ## Author
 
