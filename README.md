@@ -2,6 +2,10 @@
 
 A cross-channel marketing analytics dashboard that unifies and visualizes advertising data from Facebook, Google, and TikTok platforms.
 
+## Live Demo
+
+[View the live dashboard on Streamlit Cloud](https://marketing-analyst-technical-assignment-2026-04.streamlit.app/)
+
 ## Overview
 
 This project is a technical assignment for a Senior Marketing Analyst position, demonstrating the ability to:
