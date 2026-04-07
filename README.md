@@ -110,6 +110,9 @@ This checks:
 - platform-specific metric formulas (CTR, CPM, CPC, CPA, ROAS)
 - aggregated totals between source files and the unified dataset
 
+### User-provided dashboard QC
+This QC also validates the screenshot dashboard figures as a full-dataset, no-filter result. It confirms the same KPI logic is applied to raw data and the computed totals match the dashboard values exactly.
+
 ## Deployment on Streamlit Cloud
 
 This application is ready for deployment on Streamlit Cloud:
